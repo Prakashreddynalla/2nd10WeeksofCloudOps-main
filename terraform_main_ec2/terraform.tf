@@ -7,13 +7,13 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "awsbuckettt"
+    bucket = "nareshawsdevvvv"
     key    = "ec2/terraform.tfstate"
-    region = "us-west-1"
+    region = "us-east-1"
   }
 
   required_version = ">= 1.6.3"
 }
 provider "aws" {
-  region = "us-west-1"
+  region = "us-east-1"
 }
